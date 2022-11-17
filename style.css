@@ -17,6 +17,15 @@
 .nav__ul__right{
     padding-right: 150px;
 }
+
+.navbar-toggler{
+    border-radius: 50%;
+}
+.navbar-toggler-icon{
+    width: 2rem !important;
+    height: 2.5rem !important;
+}
+
 @media(max-width:770px){
     .nav__ul{
         border: none;
