@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400&display=swap');
+
 .nav__ul{
     border-top: 3px solid #6eb8b3;
     border-bottom: 3px solid #6eb8b3;
-    font-size:1.5rem;
+    font-size:2rem;
 }
 .nav__ul li a{
     color:#224a49;
+    text-transform: uppercase;
+    font-weight:600; 
+    font-family: Barlow Condensed;
+    /* filter: drop-shadow(2px 2px 0px #a9cabc); */
 }
-.nav__ul li a:hover{
+/* .nav__ul li a:hover{
     color:  #f15232;
-}
+} */
 .nav-link{
     padding: 0;
 }
@@ -32,6 +38,9 @@
 }
 .nav__margin__fix{
     margin-top: 1rem;margin-bottom: 1rem;
+}
+.navbar-nav .nav-link.active{
+    color: #f15232;
 }
 /* .navbar-toggler-icon:focus{
     background-image: url(assets/img/close-window.png);
@@ -150,39 +159,63 @@
         padding-top: 0;
     }
     .nav__margin__fix{
-        margin-top: -0.75rem;margin-bottom: 1rem;
+        margin-top: 3px;margin-bottom: 3px;
     }
     .nav__ul{
         border: none;
-        text-align: center;
         gap: 0;
-        background-color: #6eb8b3;
-        
+        background-color: #438280;
     }
     .nav__img{
         display: none;
     }
     .nav__ul li{
-        justify-content: center;
-        display: block;
-        margin: auto;        
+        justify-content: flex-start;
+        /* display: block; */
+        /* margin: auto; */
+        text-align: left; 
+        padding: 0 20px;
+             
     }
     .nav__ul li:nth-child(2){
         display: none;
     }
     .nav__ul li a{
         color: white;
+        line-height: 50px;
+        filter: none;
+        font-weight: 100;
+        font-family: Barlow Condensed;
+        font-size: 26px;
     }
-    .nav__ul li a:hover{
-        color: #f15232;
+    .navbar-nav .nav-item.active{
+        color: white;
+        background-color: #f15232;
     }
+    .navbar-nav .nav-link.active{
+        color: white;
+        background-color: #f15232;
+    }
+    .navbar-nav .nav-link.active::before{
+        color: white;
+        content: '\2605\00a0';
+    }
+    /* .nav__ul li a:hover::before{
+        content: '\2605\00a0';
+    } */
     .nav__ul__left{
         padding-top: 25px;
         padding-left: 0px;
+        border: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .nav__ul__right{
         padding-bottom: 25px;
         padding-right: 0px;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
     .nav__img__pc{
         display: block!important;
