@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+
+}
+
+#img69{
+    background-image: url(assets/img/Register\ page\ bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+    overflow: hidden;
+}
+
+.img669{
+    background-image: url(assets/img/Box\ for\ form.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    overflow: hidden;
+}
+
+
+
+@media  (min-width:1000px){
+
+    #img69{
+       
+        background-image: url(assets/img/Register\ page\ bg.jpg);
+        width: 100%;
+        height: 200vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+       
+        overflow: hidden;
+    }
+
+    
+
+}
