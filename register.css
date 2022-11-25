@@ -77,7 +77,8 @@ h2 {
     color: #78788c;
     border-bottom: 3px solid #78788c
 }
-span{
+
+span {
     filter: drop-shadow(1.3px 2.5px 0px #70b1aa);
     text-transform: uppercase;
 }
@@ -91,7 +92,7 @@ input {
     resize: none;
     border: 0;
     font-size: 1.5rem;
-    /* font-family: 'Montserrat', sans-serif; */
+    
     transition: all .3s;
     border-bottom: 2px solid #78788c;
     opacity: 0.3;
@@ -113,11 +114,19 @@ p:before {
     /* color: #5a5a5a; */
 }
 
+.col:before{
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    /* font-size: 14px; */
+}
+
+
 
 button {
     padding: 8px 12px;
     margin: 35px auto;
-    
+
     /* font-family: 'Montserrat', sans-serif; */
     border: none;
     border-top: 3px dashed #224a49;
@@ -133,13 +142,13 @@ button {
 }
 
 .dot {
-    
+
     /* background-color: #bbb; */
     border-radius: 50%;
     display: inline-block;
     transition: all .2s;
     margin: auto;
-  }
+}
 
 button:hover {
     /* background: #78788c; */
@@ -147,18 +156,19 @@ button:hover {
     border-top: 3px dashed #e53e26;
     border-bottom: 3px dashed #e53e26;
 }
-button:hover .dot{
+
+button:hover .dot {
     /* background: #78788c; */
     /* background-color: #fff; */
     color: #e53e26;
 }
 
-@media(max-width:760px){
+@media(max-width:760px) {
     .form {
         width: 340px;
-        height: 750px;
+        height: 860px;
         /* border-radius: 8px; */
-        margin: 8rem auto;
+        margin: 9.42rem auto;
         /* margin: calc(50vh - 220px) auto; */
         padding: 20px 30px;
         max-width: calc(100vw - 80px);
@@ -167,8 +177,42 @@ button:hover .dot{
         position: relative;
         font-size: 1.15rem;
     }
+
     button {
         font-weight: 600;
         font-family: Barlow Condensed;
     }
+
+    .col:before{
+        content: attr(type);
+        display: block;
+        margin: 0 0 20px 0;
+        /* font-size: 14px; */
+    }
+}
+
+
+
+select{
+    flex-basis: 100%;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-size: 1.5rem;
+    
+    transition: all .3s;
+    border-bottom: 2px solid #78788c;
+    opacity: 0.3;
+    filter: none;
+    color: #5a5a5a;
+}
+
+
+select:focus {
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    opacity: 1;
 }
