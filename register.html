@@ -20,33 +20,33 @@
     <section>
         <div id="img69" class="container-fluid">
             <div class="container-fluid my-5 py-5 d-flex flex-column align-items-center ">
-                <form class="form img669 px-5 mx-5" style="">
-                    <p><span style="color: #224a49;">Name:</span><input placeholder="Write your name here.."></input>
+                <form class="form img669 px-5 mx-5" id="contactForm" style="">
+                    <p><span style="color: #224a49;">Name:</span><input id="name" placeholder="Write your name here.."></input>
                     </p>
-                    <p><span style="color: #224a49;">Email:</span><input
+                    <p><span style="color: #224a49;">Email:</span><input id="email"
                             placeholder="How to contact you back.."></input></p>
                     <!-- <p><span style="color: #224a49;">Message:</span><input
                             placeholder="What would you like to tell us.."></input></p> -->
                     <div class="row">
-                        <div class="col"><span style="color: #224a49;">Food:</span> <select class="" id="gender"
+                        <div class="col"><span style="color: #224a49;">Food:</span> <select class="" id="food"
                                 required="">
                                 <option selected="" value="">Food preference</option>
-                                <option value="M">Veg</option>
-                                <option value="F">Non-veg</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non-veg">Non-veg</option>
 
                             </select>
                         </div>
                         <div class="col">
-                            <span style="color: #224a49;">T-shirt Size:</span> <select class="" id="gender" required="">
+                            <span style="color: #224a49;">T-shirt Size:</span> <select class="" id="size" required="">
                                 <option selected="" value="">Tshirt size</option>
-                                <option value="M">L</option>
-                                <option value="F">XXXL</option>
+                                <option value="L">L</option>
+                                <option value="XXXL">XXXL</option>
 
                             </select>
                         </div>
                     </div>
-                    <p><span style="color: #224a49;">Roll:</span><input placeholder="Tell your roll.."></input></p>
-                    <button><span class="dot">&#9733</span> SUBMIT <span class="dot">&#9733</span></button>
+                    <p><span style="color: #224a49;">Roll:</span><input id="roll" placeholder="Tell your roll.."></input></p>
+                    <button type="submit"><span class="dot">&#9733</span> SUBMIT <span class="dot">&#9733</span></button>
                 </form>
             </div>
         </div>
@@ -61,6 +61,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
