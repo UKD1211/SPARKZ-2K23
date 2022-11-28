@@ -1,5 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400&display=swap'); */
 
+
+
+body {
+  background-image: url(assets/img/Full\ bg.jpg);
+  /* height: 200vh; */
+}
+
 .nav__ul {
   border-top: 3px solid #6eb8b3;
   border-bottom: 3px solid #6eb8b3;
@@ -454,3 +461,25 @@ animation-timing-function: linear;
     transform: rotate(360deg);
   }
 }
+
+
+
+
+#welcome {
+  height: 100vh;
+  background-image: url(assets/img/Newspaper\ bg.jpg);
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
+#welcome img {
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+/* #footer{
+  height: 5vh;
+
+} */

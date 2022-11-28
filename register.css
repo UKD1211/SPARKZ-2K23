@@ -7,6 +7,7 @@
 
 }
 
+
 /* div{
     overflow: scroll;
 } */
@@ -92,7 +93,7 @@ input {
     resize: none;
     border: 0;
     font-size: 1.5rem;
-    
+
     transition: all .3s;
     border-bottom: 2px solid #78788c;
     opacity: 0.3;
@@ -114,7 +115,7 @@ p:before {
     /* color: #5a5a5a; */
 }
 
-.col:before{
+.col:before {
     content: attr(type);
     display: block;
     margin: 28px 0 0;
@@ -183,7 +184,7 @@ button:hover .dot {
         font-family: Barlow Condensed;
     }
 
-    .col:before{
+    .col:before {
         content: attr(type);
         display: block;
         margin: 0 0 20px 0;
@@ -193,7 +194,7 @@ button:hover .dot {
 
 
 
-select{
+select {
     flex-basis: 100%;
     padding: 10px;
     /* box-sizing: border-box; */
@@ -202,7 +203,7 @@ select{
     resize: none;
     border: 0;
     font-size: 1.5rem;
-    
+
     transition: all .3s;
     border-bottom: 2px solid #78788c;
     opacity: 0.3;
