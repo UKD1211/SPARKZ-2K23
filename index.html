@@ -13,6 +13,7 @@
   <link rel="stylesheet" id="-css"
     href="//fonts.googleapis.com/css?family=Merriweather%3A300%2Cregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CSatisfy%3Aregular&amp;subset=latin&amp;ver=6.1"
     type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <title>SPARKZ 2023</title>
 </head>
 
@@ -117,8 +118,37 @@
 
 
   <section id="welcome">
-    <div>
-      <img class="img-fluid my-5" src="assets/img/1st part top.png" alt="">
+    <div class="welcome_durex">
+      <!-- <div class="row">
+        <div class="col-xs-12 hidden-sm hidden-md hidden-lg jamz">  
+            <img class="img-responsive" src="assets/img/1st part top mobile.png" />
+        </div>
+        <div class="hidden-xs hidden-sm col-md-12 hidden-lg jazz">
+            <img class="img-responsive" src="assets/img/1st part top.png" />
+        </div>
+    </div> -->
+    <div class="thumbnail">
+      <img src="assets/img/1st part top.png">
+    </div>
+    </div>
+
+    <div id="sexy">
+      <div class="about-left-col">
+        <img src="assets/img/2nd part left bottom.png" alt="">
+      </div>
+      <div class="about-right-col">
+
+
+        <img src="assets/img/Newspaperright part.gif" alt="">
+
+
+
+
+
+
+      </div>
+    </div>
+
     </div>
   </section>
 
@@ -144,6 +174,14 @@
         document.getElementsByClassName("navbar-toggler-icon").style.backgroundImage = "none";
      }
     </script> -->
+    <script>
+      if ($(window).width() > 767) {
+    $("img[src$='1st part top.png']").each(function() {
+        var new_src = $(this).attr("src").replace('1st part top.png', '1st part top mobile.png'); 
+        $(this).attr("src", new_src); 
+    });
+}
+    </script>
 </body>
 
 </html>

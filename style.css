@@ -3,7 +3,7 @@
 
 
 body {
-  background-image: url(assets/img/Full\ bg.jpg);
+  background-image: url(assets/img/Newspaper\ bg\ final.jpg);
   /* height: 200vh; */
 }
 
@@ -466,8 +466,8 @@ animation-timing-function: linear;
 
 
 #welcome {
-  height: 100vh;
-  background-image: url(assets/img/Newspaper\ bg.jpg);
+  /* height: 150vh; */
+  background-image: url(assets/img/Full\ bg\ final.jpg);
   /* background-position: center; */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
@@ -483,3 +483,49 @@ animation-timing-function: linear;
   height: 5vh;
 
 } */
+
+.dn{
+  display: none;
+}
+
+#sexy {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+
+
+}
+
+.welcome_durex{
+  margin: 0 5rem;
+  /* background-image: url(assets/img/1st\ part\ top.png); */
+}
+
+.about-left-col,
+    .about-right-col {
+        flex-basis: 40%;
+        margin: 0 2rem;
+    }
+
+
+ @media (max-width:770px){
+  .about-left-col,
+    .about-right-col {
+        flex-basis: 100%;
+        margin: 2rem 2rem;
+        /* flex-wrap: wrap-reverse; */
+    }
+    #sexy{
+      padding: 20px 0;
+    }
+    .welcome_durex{
+      margin: 0 1.8rem;      /* background-image: url(./assets/img/1st\ part\ top\ mobile.png); */
+    }
+    
+
+    #welcome{
+      background-image: url(assets/img/Full\ bg\ for\ mobile\ with\ box.jpg);
+    }
+ }   
