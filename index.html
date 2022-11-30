@@ -14,6 +14,10 @@
     href="//fonts.googleapis.com/css?family=Merriweather%3A300%2Cregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CSatisfy%3Aregular&amp;subset=latin&amp;ver=6.1"
     type="text/css" media="all">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" 
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
   <title>SPARKZ 2023</title>
 </head>
 
@@ -140,16 +144,16 @@
 
 
   <section id="gallery">
-    <div style=" display: flex; align-items: center; justify-content: space-between;">
-      <img class="img-fluid  my-5" src="assets/img/Past years 69.png" id="1st-img" alt="" style="margin-left: 83px;">
-      <img class="img-fluid mx-5 my-5" src="assets/img/Amra kara!.png" id="2nd-img" alt="">
+    <div class="gallery_heading" style=" display: flex; align-items: center; justify-content: space-between;">
+      <img class="img-fluid gallery_chomu1  my-5" src="assets/img/Past years 69.png" id="1st-img" alt="" style="margin-left: 83px;">
+      <img class="img-fluid gallery_chomu2 mx-5 my-5" src="assets/img/Amra kara!.png" id="2nd-img" alt="">
+      <img class="img-fluid gallery_chomu3 " src="assets/img/Past years for mobile.png" id="3rd-img" alt="">
 
     </div>
 
-    <!-- Carousel wrapper -->
-    <!-- <div class="gallery_flex d-flex justify-content-center align-items-center"> -->
 
-      <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+
+      <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center carousel-fade" data-mdb-ride="carousel">
         
         <!-- Inner -->
         <div class="carousel-inner py-4">
@@ -157,97 +161,110 @@
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_1.png" alt="avatar" style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_1.png" alt="avatar"/>
                 </div>
   
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_2.png" alt="avatar"
-                    style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_2.png" alt="avatar"/>
                 </div>
   
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_3.png" alt="avatar"
-                    style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_3.png" alt="avatar"/>
                   
                 </div>
               </div>
             </div>
           </div>
   
-          <!-- Single item -->
-          <!-- <div class="carousel-item  active">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_4.png" alt="avatar" style="width: 350px;" />
-                </div>
-  
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_5.png" alt="avatar" style="width: 350px;" />
-                  
-                </div>
-  
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_6.png" alt="avatar" style="width: 350px;" />
-                  
-                </div>
-              </div>
-            </div>
-          </div> -->
-  
-          <!-- Single item -->
+
           <div class="carousel-item">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_4.png" alt="avatar" style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_4.png" alt="avatar"/>
                 </div>
   
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_5.png" alt="avatar" style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_5.png" alt="avatar"/>
                   
                 </div>
   
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="assets/img/Photo Gallery_6.png" alt="avatar" style="width: 350px;" />
+                <div class="col-md-4 col-sm-6">
+                  <img class="rounded-circle shadow-1-strong mb-4 gallery_img"
+                    src="assets/img/Photo Gallery_6.png" alt="avatar" />
                   
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Inner -->
-        <!-- Controls -->
-        <div class="d-flex justify-content-center mb-4">
-          <button class="carousel-control-prev position-relative" type="button"
-            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next position-relative" type="button"
-            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselMultiItemExample"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
-      <!-- Carousel wrapper -->
-    <!-- </div> -->
   </section>
 
 
-
-
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 JUEE:
+      <span class="text-white">😎 Dwaipayan , Uttam and Soham 😎</span>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 
 
