@@ -435,7 +435,7 @@ animation-timing-function: linear;
 
   }
 
-  #welcome{
+  #welcome {
     background-image: url(assets/img/Full\ bg\ for\ mobile\ with\ box.jpg);
     background-position: center;
     background-size: cover;
@@ -467,7 +467,7 @@ animation-timing-function: linear;
   display: none;
 }
 
-@media (max-width: 640px)  {
+@media (max-width: 640px) {
   .chomu1 {
     display: none;
   }
@@ -475,4 +475,23 @@ animation-timing-function: linear;
   .chomu2 {
     display: block;
   }
+}
+
+
+
+#gallery {
+  background-image: url(assets/img/Photo\ Gallery\ bg\ amra\ kara.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+@media (max-width:1170px) {
+
+  #gallery {
+    
+    display: none;
+  }
+
 }
