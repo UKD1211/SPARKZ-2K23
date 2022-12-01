@@ -164,6 +164,34 @@ button:hover .dot {
     color: #e53e26;
 }
 
+
+
+
+select {
+    flex-basis: 100%;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-size: 1.5rem;
+
+    transition: all .3s;
+    border-bottom: 2px solid #78788c;
+    opacity: 0.3;
+    filter: none;
+    color: #5a5a5a;
+}
+
+
+select:focus {
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    opacity: 1;
+}
+
+
 @media(max-width:760px) {
     .form {
         width: 340px;
@@ -190,30 +218,10 @@ button:hover .dot {
         margin: 0 0 20px 0;
         /* font-size: 14px; */
     }
-}
-
-
-
-select {
-    flex-basis: 100%;
-    padding: 10px;
-    /* box-sizing: border-box; */
-    background: none;
-    outline: none;
-    resize: none;
-    border: 0;
-    font-size: 1.5rem;
-
-    transition: all .3s;
-    border-bottom: 2px solid #78788c;
-    opacity: 0.3;
-    filter: none;
-    color: #5a5a5a;
-}
-
-
-select:focus {
-    border-bottom: 2px solid #000000;
-    color: #000000;
-    opacity: 1;
+    input{
+        font-size: 1.2rem;
+    }
+    select{
+        font-size: 1.25rem;
+    }
 }
