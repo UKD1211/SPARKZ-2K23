@@ -125,7 +125,7 @@
 
 
   <section id="welcome">
-    <div class="welcome_durex pt-5">
+    <div class="welcome_durex pt-5 reveal">
 
       <div class="thumbnail">
         <img class="chomu1" src="assets/img/1st part top.png">
@@ -138,10 +138,10 @@
     </div>
 
     <div id="sexy">
-      <div class="about-left-col">
+      <div class="about-left-col reveal" >
         <img src="assets/img/2nd part left bottom69.png" alt="">
       </div>
-      <div class="about-right-col">
+      <div class="about-right-col reveal">
         <!-- <img src="assets/img/Right picture 1.png" alt="" style=""> -->
 
 
@@ -182,7 +182,7 @@
 
 
   <section id="gallery">
-    <div class="gallery_heading" style=" display: flex; align-items: center; justify-content: space-between;">
+    <div class="gallery_heading reveal" style=" display: flex; align-items: center; justify-content: space-between;">
       <img class="img-fluid gallery_chomu1  my-5" src="assets/img/Past years 69.png" id="1st-img" alt=""
         style="margin-left: 83px;">
       <img class="img-fluid gallery_chomu2 mx-5 my-5" src="assets/img/Amra kara!.png" id="2nd-img" alt="">
@@ -192,7 +192,7 @@
 
 
 
-    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center carousel-fade"
+    <div id="carouselMultiItemExample" class="carousel slide reveal carousel-dark text-center carousel-fade"
       data-mdb-ride="carousel">
 
       <!-- Inner -->
@@ -268,7 +268,7 @@
 
 
 
-    <div class="footer-div d-flex justify-content-center flex-wrap-wrap">
+    <div class="footer-div d-flex justify-content-center flex-wrap-wrap reveal">
       <div class="footer-div-img">
         <img class="img-fluid my-5" src="assets/img/Sparkz logo footer.png" alt="" srcset="">
       </div>
@@ -330,6 +330,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
+    <script>
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 120;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+      window.addEventListener("scroll", reveal);
+      
+    </script>
 
 </body>
 
