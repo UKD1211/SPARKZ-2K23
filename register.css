@@ -200,9 +200,11 @@ select:focus {
     margin: 0 0 20px 0;
     /* font-size: 14px; */
   }
+
   input {
     font-size: 1.2rem;
   }
+
   select {
     font-size: 1.25rem;
   }

@@ -273,7 +273,7 @@ button {
     padding: 8px 12px;
     margin: 35px auto;
     font-size: 1.5rem;
-    /* filter: drop-shadow(2px 2px 0px #a9cabc); */
+    filter: drop-shadow(2px 2px 0px #a9cabc);
 
     font-family: Barlow Condensed;
     border: none;
@@ -296,27 +296,29 @@ button {
     display: inline-block;
     transition: all 0.2s;
     margin: auto;
-  }
-  
-  button:hover {
+    /* filter: drop-shadow(2px 2px 0px #a9cabc); */
+}
+
+button:hover {
     /* background: #78788c; */
     color: #e53e26;
     border-top: 3px dashed #e53e26;
     border-bottom: 3px dashed #e53e26;
-  }
+}
 
-  button a{
+button a {
     color: #224a49;
     transition: all 0.3s;
-  }
+    /* filter: none !important; */
+}
 
-  button a:hover{
+button a:hover {
     color: #e53e26;
-  }
-  
+}
 
-  button:hover .dot {
+
+button:hover .dot {
     /* background: #78788c; */
     /* background-color: #fff; */
     color: #e53e26;
-  }
+}

@@ -26,9 +26,7 @@
 
 <body>
 
-  <!-- -----------------------NAVBAR START------------------------ -->
-
-
+  <!-- -----------------------NAVBAR START--------------------------------- -->
 
   <nav class="navbar navbar-expand-lg bg-light" id="nav-69"
     style="background-image: url(assets/img/navbar\ bg\ 19.jpg);background-repeat:no-repeat;background-size: cover; height:90px; padding:0;">
@@ -70,9 +68,10 @@
             <div class="dropdown">
               <a class=" nav-link" aria-current="page" style="cursor: pointer;">Contact</a>
               <div class="dropdown-content">
-                <a href="#">Supratim Sarkar</a>
-                <a href="#">Mainak Seal</a>
-                <a href="#">Sugam Das</a>
+                <a href="#">Cultural Lead</a>
+                <a href="#">Logistics Lead</a>
+                <a href="#">Food Lead</a>
+                <a href="#">Funding Lead</a>
               </div>
             </div>
           </li>
@@ -103,12 +102,11 @@
       </div>
     </div>
   </nav>
+  <!-- -----------------------------------------NAVBAR END-------------------------------- -->
 
 
 
-
-
-
+  <!-- ----------------------------------HOME START------------------------------------ -->
   <section id="home">
 
 
@@ -120,10 +118,11 @@
 
     </div>
   </section>
+  <!-- -----------------------------------HOME END---------------------------------- -->
 
 
 
-
+  <!-- -------------------------------WELCOME START-------------------------------------- -->
   <section id="welcome">
     <div class="welcome_durex pt-5 reveal">
 
@@ -138,7 +137,7 @@
     </div>
 
     <div id="sexy">
-      <div class="about-left-col reveal" >
+      <div class="about-left-col reveal">
         <img src="assets/img/2nd part left bottom69.png" alt="">
       </div>
       <div class="about-right-col reveal">
@@ -177,10 +176,12 @@
 
     </div>
   </section>
+  <!-- -----------------------------WELCOME END----------------------------- -->
 
 
 
 
+  <!-- ---------------------------------GALLERY START--------------------------- -->
   <section id="gallery">
     <div class="gallery_heading reveal" style=" display: flex; align-items: center; justify-content: space-between;">
       <img class="img-fluid gallery_chomu1  my-5" src="assets/img/Past years 69.png" id="1st-img" alt=""
@@ -257,11 +258,12 @@
     </div>
     </div>
   </section>
+  <!-- ----------------------------------GALLERY END------------------------------------ -->
 
 
 
 
-  <!-- ---------------------FOOTER------------------------- -->
+  <!-- ---------------------FOOTER START------------------------------ -->
 
   <footer class="text-center text-white page_footer ripped_footer" style="border: none; outline: none;">
 
@@ -320,7 +322,7 @@
 
     </div>
   </footer>
-
+  <!-- ----------------------------------------FOOTER END--------------------------------- -->
 
 
 
@@ -330,23 +332,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
-    <script>
-      function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-        for (var i = 0; i < reveals.length; i++) {
-          var windowHeight = window.innerHeight;
-          var elementTop = reveals[i].getBoundingClientRect().top;
-          var elementVisible = 120;
-          if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-          } else {
-            reveals[i].classList.remove("active");
-          }
+  <script>
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 120;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
         }
       }
-      window.addEventListener("scroll", reveal);
-      
-    </script>
+    }
+    window.addEventListener("scroll", reveal);
+
+  </script>
 
 </body>
 
