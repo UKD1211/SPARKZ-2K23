@@ -37,6 +37,7 @@ function submitForm(e) {
   // }, 3000);
 
   //   reset the form
+  window.location.href = "thanks.html";
   document.getElementById("contactForm").reset();
 }
 

@@ -300,13 +300,14 @@ button {
   
   button:hover {
     /* background: #78788c; */
-    /* color: #e53e26; */
+    color: #e53e26;
     border-top: 3px dashed #e53e26;
     border-bottom: 3px dashed #e53e26;
   }
 
   button a{
     color: #224a49;
+    transition: all 0.3s;
   }
 
   button a:hover{
