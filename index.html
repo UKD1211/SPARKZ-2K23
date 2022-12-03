@@ -30,7 +30,7 @@
 
 
 
-  <nav class="navbar navbar-expand-lg bg-light"
+  <nav class="navbar navbar-expand-lg bg-light" id="nav-69"
     style="background-image: url(assets/img/navbar\ bg\ 19.jpg);background-repeat:no-repeat;background-size: cover; height:90px; padding:0;">
     <div class="container-fluid flex-row-reverse" style="justify-content: center;">
 
@@ -45,7 +45,7 @@
       <div class="collapse navbar-collapse nav__margin__fix" id="navbarNavDropdown" style="justify-content: center;">
         <ul class="navbar-nav nav__ul nav__ul__left" style="">
           <li class="nav-item d-flex align-items-center active">
-            <a class="nav-link active " aria-current="page" href="#">Home</a>
+            <a class="nav-link active " aria-current="page" href="#welcome">Home</a>
           </li>
           <li style="color:#224a49; padding:15px; font-size: 15px;"> &#9733 </li>
           <li class="nav-item d-flex align-items-center">
@@ -58,12 +58,47 @@
         </div>
         <ul class="navbar-nav nav__ul nav__ul__right" style="">
           <li class="nav-item d-flex align-items-center">
-            <a class="nav-link" aria-current="page" href="#">Gallery</a>
+            <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
           </li>
           <li style="color:#224a49; padding:15px; font-size: 15px;">&#9733</li>
-          <li class="nav-item d-flex align-items-center">
+          <!-- <li class="nav-item d-flex align-items-center">
             <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li> -->
+
+
+          <li class="nav-item d-flex align-items-center">
+            <div class="dropdown">
+              <a class=" nav-link" aria-current="page" style="cursor: pointer;">Contact</a>
+              <div class="dropdown-content">
+                <a href="#">Supratim Sarkar</a>
+                <a href="#">Mainak Seal</a>
+                <a href="#">Sugam Das</a>
+              </div>
+            </div>
           </li>
+
+
+
+          <!-- <li class="nav-item d-flex align-items-center btn-group">
+
+            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false" aria-current="page"
+              href="#">Contact</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li> -->
+
+
+
+
+
+
         </ul>
       </div>
     </div>
@@ -230,42 +265,41 @@
 
   <footer class="text-center text-white page_footer ripped_footer" style="border: none; outline: none;">
 
-    
 
 
-      <div class="footer-div d-flex justify-content-center flex-wrap-wrap">
-        <div class="footer-div-img">
-          <img class="img-fluid my-5" src="assets/img/Sparkz logo footer.png" alt="" srcset="">
-        </div>
-        <div class="footer-div-nav">
-          <nav class="stroke">
-            <ul style="margin-left: -2rem;">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Register</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
-              <!-- <li><a href="#">Nice staff</a></li> -->
-            </ul>
-          </nav>
-        </div>
-        <div class="footer-div-icon">
-          <ul class="sci" style="margin-left: -2rem;">
-            <li><a href="#" target="_blank">
-                    <i class='fa fa-facebook-f'></i>
-                </a></li>
-            <li><a href="#" target="_blank">
-                    <i class='fab fa-twitter'></i>
-                </a></li>
-            <li><a href="#" target="_blank">
-                    <i class='fab fa-instagram'></i>
-                </a></li>
-            <li><a href="#" target="_blank">
-                    <i class='fab fa-linkedin'></i>
-                </a></li>
-        </ul>
-        </div>
+
+    <div class="footer-div d-flex justify-content-center flex-wrap-wrap">
+      <div class="footer-div-img">
+        <img class="img-fluid my-5" src="assets/img/Sparkz logo footer.png" alt="" srcset="">
       </div>
-      
+      <div class="footer-div-nav">
+        <nav class="stroke">
+          <ul style="margin-left: -2rem;">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#nav-69">Contact</a></li>
+            <!-- <li><a href="#">Nice staff</a></li> -->
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-div-icon">
+        <ul class="sci" style="margin-left: -2rem;">
+          <li><a href="#" target="_blank">
+              <i class='fa fa-facebook-f'></i>
+            </a></li>
+          <li><a href="#" target="_blank">
+              <i class='fab fa-twitter'></i>
+            </a></li>
+          <li><a href="#" target="_blank">
+              <i class='fab fa-instagram'></i>
+            </a></li>
+          <li><a href="#" target="_blank">
+              <i class='fab fa-linkedin'></i>
+            </a></li>
+        </ul>
+      </div>
+    </div>
 
 
 
@@ -274,10 +308,14 @@
 
 
 
-    <div class="text-center p-3" style="border: none; outline: none;font-family:Barlow Condensed; font-size:1.5rem;text-transform:uppercase;">
+
+    <div class="text-center p-3"
+      style="border: none; outline: none;font-family:Barlow Condensed; font-size:1.5rem;text-transform:uppercase;">
       © 2025 JUEE:
-      <span class="text-white" style="border: none; outline: none;
-      font-family:Barlow Condensed; font-size:1.5rem; padding-left:10px;text-transform:uppercase;filter: drop-shadow(2px 2px 0px #4D433C);">⚡ Dwaipayan , Uttam & Soham ⚡</span>
+      <span class="text-white"
+        style="border: none; outline: none;
+      font-family:Barlow Condensed; font-size:1.5rem; padding-left:10px;text-transform:uppercase;filter: drop-shadow(2px 2px 0px #4D433C);">⚡
+        Dwaipayan , Uttam & Soham ⚡</span>
     </div>
 
     </div>
