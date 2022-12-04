@@ -6,7 +6,10 @@ body {
     /* font-family: 'Poppins', sans-serif; */
     font-family: Barlow Condensed;
     /* filter: drop-shadow(2px 2px 0px #a9cabc); */
+    background-image: url(assets/img/);
 }
+
+
 
 .thank-page-template {
     background-color: #fff;
