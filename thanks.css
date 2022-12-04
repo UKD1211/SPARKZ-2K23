@@ -278,7 +278,7 @@ ul.footer-nav li+li::before {
 button {
     padding: 8px 12px;
     margin: 35px auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     filter: drop-shadow(2px 2px 0px #a9cabc);
 
     font-family: Barlow Condensed;
@@ -330,20 +330,22 @@ button:hover .dot {
 }
 
 
-#chomu69  {
+#chomu69 {
     filter: drop-shadow(2px 2px 0px #a9cabc);
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
+
+
 
 @media (max-width:770px) {
     /* body{
         font-size: 4rem !important;
     } */
 
-    #chomu69  {
+    /* #chomu69 {
         filter: drop-shadow(2px 2px 0px #a9cabc);
         font-size: 4.4rem;
-    }
+    } */
 
 
     .thank-you-page-content {
@@ -351,7 +353,7 @@ button:hover .dot {
         float: left;
         width: 100%;
         background: rgba(250, 237, 234, 0.6);
-       
+
         box-sizing: border-box;
     }
 }

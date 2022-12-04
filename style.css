@@ -1004,11 +1004,11 @@ nav ul li {}
 
 
 
-#load-text{
+#load-text {
   font-size: 7.123rem;
 }
 
-@media (max-width:420px){
+@media (max-width:420px) {
   .loading {
     position: absolute;
     top: 50%;
@@ -1019,11 +1019,11 @@ nav ul li {}
     font-family: Barlow Condensed;
     letter-spacing: 0.5rem;
     /* filter: drop-shadow(); */
-    
+
   }
 
-  #load-text{
+  #load-text {
     font-size: 5rem;
   }
-  
+
 }
