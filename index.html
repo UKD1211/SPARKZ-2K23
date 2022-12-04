@@ -130,8 +130,13 @@
 
 
   <!-- ----------------------------------HOME START------------------------------------ -->
-  <section id="home" style="padding-bottom: -30px;">
-
+  <section id="home">
+    <!-- <div class="home_yo" style="height: 1080px;">
+      <video src="assets/img/Landing gif.mp4" muted loop autoplay></video>
+    </div> -->
+    <div class="embed-responsive embed-responsive-16by9" style="height: calc(100vw*9 / 16);">
+      <video class="embed-responsive-item" src="assets/img/Landing gif.mp4" muted loop autoplay></video>
+    </div>
 
     <!-- <div class="image">
       <div class="overlay d-flex" style="justify-content: center; align-items:center">
@@ -141,7 +146,6 @@
 
     </div> -->
 
-    <video src="assets/img/Landing gif.mp4" muted loop autoplay></video>
   </section>
   <!-- -----------------------------------HOME END---------------------------------- -->
 
@@ -363,7 +367,7 @@
       for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 120;
+        var elementVisible = 100;
         if (elementTop < windowHeight - elementVisible) {
           reveals[i].classList.add("active");
         } else {
