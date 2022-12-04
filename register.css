@@ -360,3 +360,30 @@ select:focus {
     -webkit-text-stroke-color: #f15232;
   }
 }
+
+
+
+
+#load-text{
+  font-size: 7.123rem;
+}
+
+@media (max-width:420px){
+  .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e8e5bc;
+    font-size: 3rem;
+    font-family: Barlow Condensed;
+    letter-spacing: 0.5rem;
+    /* filter: drop-shadow(); */
+    
+  }
+
+  #load-text{
+    font-size: 5rem;
+  }
+  
+}

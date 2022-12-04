@@ -6,13 +6,14 @@ body {
     /* font-family: 'Poppins', sans-serif; */
     font-family: Barlow Condensed;
     /* filter: drop-shadow(2px 2px 0px #a9cabc); */
-    background-image: url(assets/img/);
+    background-image: url(assets/img/thankyou\ page\ bg.jpg);
 }
 
 
 
 .thank-page-template {
     background-color: #fff;
+    /* opacity: 0.6; */
 }
 
 .thank-you-wrapper {
@@ -34,7 +35,8 @@ body {
     position: relative;
     float: left;
     width: 100%;
-    background: #fff;
+    background: rgba(250, 237, 234, 0.6);
+    /* opacity: ; */
     padding: 90px;
     margin: 30px 0;
     box-sizing: border-box;
@@ -49,6 +51,7 @@ body {
     left: 10px;
     width: 50%;
     top: 80%;
+    /* opacity: 0.6; */
     max-width: 300px;
     background: #fff;
     /* -webkit-box-shadow: 0 15px 10px #777;
@@ -324,4 +327,31 @@ button:hover .dot {
     /* background: #78788c; */
     /* background-color: #fff; */
     color: #e53e26;
+}
+
+
+#chomu69  {
+    filter: drop-shadow(2px 2px 0px #a9cabc);
+    font-size: 2.4rem;
+}
+
+@media (max-width:770px) {
+    /* body{
+        font-size: 4rem !important;
+    } */
+
+    #chomu69  {
+        filter: drop-shadow(2px 2px 0px #a9cabc);
+        font-size: 4.4rem;
+    }
+
+
+    .thank-you-page-content {
+        position: relative;
+        float: left;
+        width: 100%;
+        background: rgba(250, 237, 234, 0.6);
+       
+        box-sizing: border-box;
+    }
 }
