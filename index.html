@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” /> -->
   <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>SPARKZ 2023</title>
 </head>
 
@@ -63,7 +64,7 @@
 
 
       </button>
-      <div class="collapse navbar-collapse nav__margin__fix" id="navbarNavDropdown" style="justify-content: center;">
+      <div class="collapse navbar-collapse nav__margin__fix" id="navbarNavDropdown" style="justify-content: center;z-index:10;">
         <ul class="navbar-nav nav__ul nav__ul__left" style="">
           <li class="nav-item d-flex align-items-center active">
             <a class="nav-link active " aria-current="page" href="#welcome">Home</a>
@@ -153,7 +154,7 @@
 
   <!-- -------------------------------WELCOME START-------------------------------------- -->
   <section id="welcome">
-    <div class="welcome_durex pt-5 reveal">
+    <div class="welcome_durex pt-5" data-aos="fade-up">
 
       <div class="thumbnail">
         <img class="chomu1" src="assets/img/1st part top.png">
@@ -316,16 +317,16 @@
       </div>
       <div class="footer-div-icon">
         <ul class="sci" style="margin-left: -2rem;">
-          <li><a href="#" target="_blank">
+          <li><a href="https://www.facebook.com/juee1822?mibextid=ZbWKwL" target="_blank">
               <i class='fa fa-facebook-f'></i>
             </a></li>
-          <li><a href="#" target="_blank">
+          <li><a href="https://www.facebook.com/juee1822?mibextid=ZbWKwL" target="_blank">
               <i class='fab fa-twitter'></i>
             </a></li>
-          <li><a href="#" target="_blank">
+          <li><a href="https://www.facebook.com/juee1822?mibextid=ZbWKwL" target="_blank">
               <i class='fab fa-instagram'></i>
             </a></li>
-          <li><a href="#" target="_blank">
+          <li><a href="https://www.facebook.com/juee1822?mibextid=ZbWKwL" target="_blank">
               <i class='fab fa-linkedin'></i>
             </a></li>
         </ul>
@@ -346,7 +347,7 @@
       <span class="text-white"
         style="border: none; outline: none;
       font-family:Barlow Condensed; font-size:1.5rem; padding-left:10px;text-transform:uppercase;filter: drop-shadow(2px 2px 0px #4D433C);">⚡
-        Dwaipayan , Uttam & Soham ⚡</span>
+       <a href="https://www.linkedin.com/in/dwaipayan-haldar-1005a7219/" target="_blank" style="text-decoration: none;color:#f7ebd5">Dwaipayan</a> , <a href="https://www.linkedin.com/in/uttam-kanti-dutta-877357236/" target="_blank" style="text-decoration: none;color:#f7ebd5">Uttam</a> & <a href="https://www.linkedin.com/in/soham-chaudhuri-8aa0a9226/" target="_blank" style="text-decoration: none;color:#f7ebd5">Soham</a> ⚡</span>
     </div>
 
     </div>
@@ -367,7 +368,7 @@
       for (var i = 0; i < reveals.length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 100;
+        var elementVisible = 80;
         if (elementTop < windowHeight - elementVisible) {
           reveals[i].classList.add("active");
         } else {
@@ -378,7 +379,10 @@
     window.addEventListener("scroll", reveal);
 
   </script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <script>
     var loader = document.getElementById('preloader');
