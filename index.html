@@ -26,6 +26,29 @@
 
 <body>
 
+
+  <section id="preloader" class="fixed-top preloader_bg preloader_footer">
+    <div class="loading">
+      <div class="percent text-center" style="font-size: 7.457899rem;">LOADING</div>
+      <div class="d-flex text-center star_loading justify-content-center">
+        <span class="star">&#9733</span>
+        <span class="star">&#9733</span>
+        <span class="star">&#9733</span>
+        <span class="star">&#9733</span>
+        <span class="star">&#9733</span>
+        <span class="star">&#9733</span>
+      </div>
+      <!-- <div class="col-3">
+        <div class="snippet" data-title="dot-flashing">
+          <div class="stage">
+            <div class="dot-flashing"></div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+  </section>
+
   <!-- -----------------------NAVBAR START--------------------------------- -->
 
   <nav class="navbar navbar-expand-lg bg-light" id="nav-69"
@@ -107,16 +130,18 @@
 
 
   <!-- ----------------------------------HOME START------------------------------------ -->
-  <section id="home">
+  <section id="home" style="padding-bottom: -30px;">
 
 
-    <div class="image">
+    <!-- <div class="image">
       <div class="overlay d-flex" style="justify-content: center; align-items:center">
         <img src="//vintwood.cwsthemes.com/wp-content/uploads/revslider/retro-portfolio/vintwood-studio.png"
           class="tp-rs-img rs-lazyload" width="416" height="142" style="opacity: 100; z-index:2">
       </div>
 
-    </div>
+    </div> -->
+
+    <video src="assets/img/Landing gif.mp4" muted loop autoplay></video>
   </section>
   <!-- -----------------------------------HOME END---------------------------------- -->
 
@@ -348,6 +373,37 @@
     }
     window.addEventListener("scroll", reveal);
 
+  </script>
+
+
+  <script>
+    var loader = document.getElementById('preloader');
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+    // document.addEventListener('contextmenu', function (e) {
+    //   e.preventDefault();
+    // });
+    // document.onkeydown = function (e) {
+    //   if (event.keyCode == 123) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    //   if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+    //     return false;
+    //   }
+    // }
   </script>
 
 </body>
