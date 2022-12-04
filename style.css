@@ -566,6 +566,14 @@ animation-timing-function: linear;
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 1.1s;
 }
+.carousel-item2 {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 0.5s;
+}
 
 
 
@@ -588,7 +596,6 @@ animation-timing-function: linear;
     display: block;
   }
 }
-
 
 
 #gallery {
@@ -623,6 +630,22 @@ animation-timing-function: linear;
   width: 22rem;
 }
 
+.noice{
+  display: none;
+}
+#carouselMultiItemExample{
+  display: block;
+}
+@media(max-width:550px){
+  #carouselMultiItemExample{
+    display: none;
+  }
+  .noice{
+    display: block;
+  }
+}
+
+
 @media (max-width:912px) {
 
   #gallery {
@@ -630,7 +653,7 @@ animation-timing-function: linear;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75rem;
+    height: 65rem;
   }
 
   .gallery_chomu1,
@@ -650,6 +673,11 @@ animation-timing-function: linear;
   /* #gallery div img , #gallery div span{
     display:block;
   } */
+}
+@media(max-width:550px){
+  #gallery{
+    height: 45rem;
+  }
 }
 
 

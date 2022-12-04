@@ -19,8 +19,8 @@
   <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” /> -->
-  <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+  <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/img/lightning.svg">
   <title>SPARKZ 2023</title>
@@ -224,13 +224,37 @@
     </div>
 
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade noice" data-bs-ride="carousel">
+      <div class="carousel-inner reveal">
+        <div class="carousel-item carousel-item2 active">
+          <img src="assets/img/Photo Gallery_1.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+        <div class="carousel-item carousel-item2">
+          <img src="assets/img/Photo Gallery_2.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+        <div class="carousel-item carousel-item2">
+          <img src="assets/img/Photo Gallery_3.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+        <div class="carousel-item carousel-item2">
+          <img src="assets/img/Photo Gallery_4.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+        <div class="carousel-item carousel-item2">
+          <img src="assets/img/Photo Gallery_5.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+        <div class="carousel-item carousel-item2">
+          <img src="assets/img/Photo Gallery_6.png" class="d-block mx-auto" alt="..." style="width: 20rem;">
+        </div>
+      </div>
+    </div>
+
+
 
     <div id="carouselMultiItemExample" class="carousel slide reveal carousel-dark text-center carousel-fade"
       data-mdb-ride="carousel">
 
-      <!-- Inner -->
+    
       <div class="carousel-inner py-4">
-        <!-- Single item -->
+
         <div class="carousel-item active">
           <div class="container">
             <div class="row">
@@ -396,6 +420,7 @@
     window.addEventListener("load", function () {
       loader.style.display = "none";
     })
+
     document.addEventListener('contextmenu', function (e) {
       e.preventDefault();
     });
@@ -419,6 +444,7 @@
         return false;
       }
     }
+    
   </script>
 
 </body>
