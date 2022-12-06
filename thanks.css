@@ -42,7 +42,7 @@ body {
     box-sizing: border-box;
 }
 
-.thank-you-page-content::before,
+/* .thank-you-page-content::before,
 .thank-you-page-content::after {
     z-index: -1;
     position: absolute;
@@ -51,20 +51,13 @@ body {
     left: 10px;
     width: 50%;
     top: 80%;
-    /* opacity: 0.6; */
+    
     max-width: 300px;
     background: #fff;
-    /* -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg); */
-}
+    
+} */
 
-.thank-you-page-content::after {
+/* .thank-you-page-content::after {
     -webkit-transform: rotate(3deg);
     -moz-transform: rotate(3deg);
     -o-transform: rotate(3deg);
@@ -72,7 +65,7 @@ body {
     transform: rotate(3deg);
     right: 10px;
     left: auto;
-}
+} */
 
 html body .thank-you-wrapper .container {
     display: table;
@@ -272,7 +265,7 @@ ul.footer-nav li+li::before {
     top: 25px;
 }
 
-/* thank you page design */
+
 
 
 button {
