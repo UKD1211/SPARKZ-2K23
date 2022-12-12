@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    <!--  Meta  -->
-    <!-- <meta charset="UTF-8" />
-    <title>Thank You!</title> -->
+
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -22,7 +20,7 @@
     <link rel="stylesheet" id="-css"
         href="//fonts.googleapis.com/css?family=Merriweather%3A300%2Cregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CSatisfy%3Aregular&amp;subset=latin&amp;ver=6.1"
         type="text/css" media="all">
-    <!--  Styles  -->
+
     <link rel="icon" type="image/x-icon" href="assets/img/lightning.svg">
     <title>Thank You!</title>
     <link rel="stylesheet" href="thanks.css">
@@ -42,18 +40,18 @@
                 <span class="star">&#9733</span>
                 <span class="star">&#9733</span>
             </div>
-            <!-- <div class="col-3">
-            <div class="snippet" data-title="dot-flashing">
-              <div class="stage">
-                <div class="dot-flashing"></div>
-              </div>
-            </div>
-          </div> -->
+
         </div>
 
     </section>
 
-    <section class="thank-you-wrapper">
+
+
+
+
+
+
+    <!-- <section class="thank-you-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -66,7 +64,7 @@
                     <div class="thank-you-page-content">
                         <h1 id="chomu69">See you on 3rd January
                             😏</h1>
-                        <!-- <a href="#" class="btn btn-primary arrow-icon"  > Go back to Homepage </a> -->
+                       
                         <button type="submit"><span class="dot">&#9733</span> <a id="pro69" href="index.html"
                                 style="text-decoration: none; font-weight: 600; ">
                                 HOMEPAGE </a><span class="dot">&#9733</span></button>
@@ -78,42 +76,68 @@
             </div>
 
         </div>
-    </section>
-    <!-- thank-you-wrapper -->
+    </section> -->
 
-    <!-- Scripts -->
-    <script src="index.js"></script>
 
-    <script>
+    <div class=thankyoucontent>
+        <div class="wrapper-1">
+            <div class="wrapper-2 d-flex" style="flex-direction: column;">
+                <!-- <img src="https://i.ibb.co/Lkn7rkG/thank-you-envelope.png" alt="thank-you-envelope" border="0"> -->
+                <h1 class="tick"></h1>
+                <h1 id="chomu69" style="color: #fefbeb;">Thank you!</h1>
+                <p id="chomu69" style="color: #fefbeb;">😏 See you on 3rd January 😏</p>
 
-        var loader = document.getElementById('preloader');
-        window.addEventListener("load", function () {
-            loader.style.display = "none";
-        })
-        document.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        });
-        document.onkeydown = function (e) {
-            if (event.keyCode == 123) {
-                return false;
+                <!-- <button class="go-home"><a href="https://codepen.io/LeenaStark/full/VOxrJO">
+                        home page</a>
+                </button> -->
+                <button type="submit"><span class="dot">&#9733</span> <a id="pro69" href="index.html"
+                        style="text-decoration: none; font-weight: 600; ">
+                        HOMEPAGE </a><span class="dot">&#9733</span></button>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="index.js"></script>
+
+        <script>
+
+            var loader = document.getElementById('preloader');
+            window.addEventListener("load", function () {
+                loader.style.display = "none";
+            })
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+            document.onkeydown = function (e) {
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+                    return false;
+                }
             }
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                return false;
-            }
-            if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
-                return false;
-            }
-        }
-    </script>
+        </script>
 </body>
 
 </html>
