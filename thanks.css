@@ -495,7 +495,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: rgb(0, 128, 0);
   text-decoration: none;
   transition: all 0.3s linear 0s;
 }
@@ -692,11 +692,11 @@ button:hover .dot {
   text-align: center;
   float: left;
   width: 100px;
-  color: rgb(4, 158, 4);
+  color: #008000;
   height: 100px;
   text-align: center;
   line-height: 100px;
-  border: 2px solid rgb(4, 158, 4);
+  border: 2px solid #008000;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -ms-border-radius: 100%;
