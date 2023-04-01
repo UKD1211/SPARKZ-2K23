@@ -106,7 +106,7 @@ Github Link: [https://github.com/UKD1211](https://github.com/UKD1211)
 
 Github Link: [https://github.com/Soham-Chaudhuri](https://github.com/Soham-Chaudhuri)
 
-2) Name - [Dwaipayan Halder](#) - example@example.com
+2) Name - [Dwaipayan Halder](#) - dwai.payan152002@gmail.com
 
 Linkedin Link: [https://linkedin.com/Dwaipayan-Halder](https://www.linkedin.com/in/dwaipayan-haldar-1005a7219/)
 
